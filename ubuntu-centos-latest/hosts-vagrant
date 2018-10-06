@@ -1,0 +1,4 @@
+[default]
+bionic ansible_host=127.0.0.1 ansible_port=2222 ansible_user=vagrant ansible_ssh_private_key_file=~/git/vagrantfiles/ubuntu-centos-latest/.vagrant/machines/bionic/virtualbox/private_key ansible_ssh_extra_args="-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
+
+cent7 ansible_host=127.0.0.1 ansible_port=2223 ansible_user=vagrant ansible_ssh_private_key_file=~/git/vagrantfiles/ubuntu-centos-latest/.vagrant/machines/cent7/virtualbox/private_key ansible_ssh_extra_args="-o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null"
